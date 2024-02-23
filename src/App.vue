@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Notes from './components/Notes.vue'
+import CreateNote from './components/CreateNote.vue'
 import Search from './components/Search.vue'
 </script>
 
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <Search />
-    <Notes />
+    <CreateNote />
   </div>
 </template>
